@@ -1,4 +1,53 @@
-html,body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+html,
+body {
+  margin: 0;
+  color: rgb(2, 2, 95);
+}
+
+.bg-gradient {
+  background-color: #0066b2;
+}
+.nav-item .nav-link {
+  color: white;
+  font-size: large;
+}
+.about {
+  text-align: justify;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.tech-skills {
+  background-color: #d3eafc;
+}
+ul {
+  line-height: 2;
+}
+.tech-skills ul {
+  list-style: circle;
+  line-height: 2;
+}
+/* .tech-skills li span {
+  font-size: 1.1rem;
+  padding: 5px 5px;
+  border-radius: 10%;
+  box-shadow: 0 2px 4px 0 #52acc854;
+  background-color: #52acc82c;
+  transition: all ease-in-out 0.2s;
+} */
+.tech-skills li {
+  margin-bottom: 20px;
+}
+.card {
+  color: rgb(2, 2, 95);
+}
+.card img {
+  height: 40vh;
+}
+.live {
+  font-size: 1.1rem;
+  padding: 5px 5px;
+  border-radius: 20%;
+  background: #036ec0;
+  text-decoration: none;
+  color: white;
 }
