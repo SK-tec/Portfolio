@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   color: rgb(2, 2, 95);
+  background-color: rgb(245, 243, 242);
 }
 
 .bg-gradient {
@@ -17,7 +18,7 @@ body {
   margin-bottom: auto;
 }
 .tech-skills {
-  background-color: #d3eafc;
+  background-color: #81d1ff;
 }
 ul {
   line-height: 2;

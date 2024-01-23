@@ -53,62 +53,73 @@
         </div>
       </div>
     </nav>
+
     <header>
-      <div class="container">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <div class="row mt-5 justify-content-center">
-          <div class="col-6 col-md-4 text-center">
-            <img
-              src="./images/Samatha.PNG"
-              class="rounded-circle"
-              width="200px"
-              alt=""
-            /><br />
-            Full-Stack Developer
-            <div>
-              <a
-                href="https://linkedin.com/in/samatha-kasireddy"
-                target="_blank"
-                ><i class="bi bi-linkedin"></i></a
-              >&nbsp; &nbsp;<a href="https://github.com/SK-tec" target="_blank"
-                ><i class="bi bi-github"></i
-              ></a>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-6 col-md-4 text-center d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <img
+                src="./images/Samatha.PNG"
+                class="rounded-circle"
+                width="200px"
+                alt="Samatha"
+              />
+              <div class="ms-3">
+                <span class="role">Full-Stack Developer</span>
+                <div class="social-links mt-3">
+                  <a
+                    href="https://linkedin.com/in/samatha-kasireddy"
+                    target="_blank"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                  &nbsp; &nbsp;
+                  <a href="https://github.com/SK-tec" target="_blank"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
+
           <div class="col-md-8 about" id="about">
             <h2>Hi!</h2>
             <br />
             <h3>I'm Samatha,</h3>
             <p>
-              Post graduate in Computer Science with 3+ years experience in
-              software developement with various technologies.
+              A postgraduate in Computer Science with over 4 years of experience
+              in software development with various technologies.
             </p>
             <p>
-              I'm passionate about developing scalable,responsive and secured
-              web applications.I'm interested to work across Fullstack and
-              recently took part in "FULL-STACK WEB & APP DEVELOPMENT" Bootcamp
-              to upskill my knowledge. Currently, looking for an opportunity to
-              work as a Fullstack Engineer (or) a Frontend Developer, for
-              utilizing my Coding and analytical skills for the development of
-              organization and my career as well.
+              In 2019, I embarked on a new chapter by relocating to Germany with
+              my family. Immersing myself in the local culture, I dedicated
+              concerted efforts to learn the German language, attending classes
+              diligently to make progress and bridge linguistic gaps. This
+              experience enhanced my adaptability and cross-cultural
+              communication skills.
+            </p>
+            <p>
+              Committed to continuous improvement, I recently participated in a
+              'FULL-STACK WEB & APP DEVELOPMENT' Bootcamp to upskill my
+              knowledge with the latest technologies. Eager to apply my passion
+              for Fullstack development, I am actively pursuing opportunities in
+              roles spanning Fullstack, Frontend, and Backend development, ready
+              to contribute and thrive in dynamic tech environments. I am poised
+              for the next exciting challenge in my career in Germany.
             </p>
           </div>
         </div>
       </div>
     </header>
+
     <hr />
 
     <main>
       <section>
         <div class="container profile">
-          <h2>Profile Summary</h2>
-          <div>
+          <h2>Technical Expertise</h2>
+          <!-- <div>
             <ul>
-              <li>Master's in Computer Science</li>
-              <li>
-                Three plus years of professional experience as Software
-                Developer
-              </li>
               <li>
                 Experience in designing and implementing Responsive &
                 Single-page web applications
@@ -126,50 +137,92 @@
                 Node.js and Express
               </li>
               <li>Experience in developing microservices</li>
-              <li>Strong organizational and project management skills</li>
-              <li>Good communication & collaboration skills</li>
-              <li>A desire to stay up-to-date with new technologies</li>
+            </ul>
+          </div> -->
+          <div>
+            <ul>
+              <li>
+                Proficient in end-to-end web application development, covering
+                both frontend and backend aspects.
+              </li>
+              <li>
+                Extensive experience in working with modern JavaScript
+                frameworks, including React.js and Angular, to create responsive
+                and user-friendly interfaces.
+              </li>
+              <li>
+                Strong command over server-side JavaScript, utilizing Node.js
+                and Express to design and implement robust backend solutions.
+              </li>
+              <li>
+                Skilled in designing and developing RESTful APIs, ensuring
+                efficient communication between different components of a
+                system.
+              </li>
+              <li>
+                Hands-on experience in Docker containerization and proficiency
+                in Docker Compose for defining and managing multi-container
+                Docker applications.
+              </li>
+              <li>
+                Deployed and managed containerized applications on AWS EKS,
+                leveraging Kubernetes for orchestration.
+              </li>
+
+              <li>
+                Experience in setting up and maintaining CI/CD pipelines to
+                automate the testing and deployment processes.
+              </li>
             </ul>
           </div>
         </div>
       </section>
-      <section>
-        <div class="container mb-5 tech-skills" id="tech-skills">
-          <h2>Technical Skills</h2>
-          <div class="row mt-4">
-            <div>
-              <h4>Frontend:</h4>
 
-              <ul>
-                <li>
-                  <span
-                    >JavaScript, React, Typescript, NextJS, HTML5, CSS3,
-                    Bootstrap, ReactBootstrap, Teilwind</span
-                  >
-                </li>
-              </ul>
+      <section>
+        <div class="container mt-5" id="tech-skills">
+          <h2 class="text-center mb-4">Technical Skills</h2>
+
+          <div class="row">
+            <!-- Frontend Skills Card -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title text-primary">Frontend</h4>
+                  <ul class="list-unstyled">
+                    <li>JavaScript, React, Angular, Typescript</li>
+                    <li>NextJS, HTML5, CSS3</li>
+                    <li>Bootstrap, ReactBootstrap, Tailwind</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div>
-              <h4>Backend:</h4>
-              <ul>
-                <li>
-                  <span
-                    >Node.JS, Express, Python, C++, MySQL, PostgreSQL,
-                    MongoDB</span
-                  >
-                </li>
-              </ul>
+
+            <!-- Backend Skills Card -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title text-primary">Backend</h4>
+                  <ul class="list-unstyled">
+                    <li>Node.JS, Express, Spring Boot</li>
+                    <li>Python, C++</li>
+                    <li>MySQL, PostgreSQL, MongoDB</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div>
-              <h4>DevOps & Others :</h4>
-              <ul>
-                <li>
-                  <span
-                    >Jira, Trello, GitHub, Bitbucket, Git, Jest, Docker, Docker
-                    Compose
-                  </span>
-                </li>
-              </ul>
+
+            <!-- DevOps Skills Card -->
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title text-primary">DevOps & Others</h4>
+                  <ul class="list-unstyled">
+                    <li>Jira, Trello, GitHub</li>
+                    <li>Bitbucket, Git, Jest</li>
+                    <li>Docker, Docker Compose, AWS EKS</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -178,6 +231,53 @@
       <section class="container projects" id="projects">
         <hr />
         <h2>Work Samples</h2>
+        <!--Cat App-->
+
+        <div class="card mt-5">
+          <div class="row row-cols-1 row-cols-lg-2 g-3">
+            <div class="col">
+              <div class="card-body">
+                <h5 class="card-title text-center">Kitty Cat Club</h5>
+                <p class="card-text">
+                  Explore the Kitty Cat Club, a MERN stack Web App styled with
+                  Teilwind CSS. Discover fascinating details about cats
+                  worldwide and contribute your own cats to the club!
+                </p>
+                <ul class="list-unstyled">
+                  <li>Created Cat Database using MongoDB</li>
+                  <li>Implemented MVC pattern for backend structure</li>
+                  <li>
+                    Designed and developed RESTful API with POSTMAN testing
+                  </li>
+                  <li>
+                    Implemented CRUD operations, Search functionality, and
+                    Pagination
+                  </li>
+                  <li>
+                    Integrated public API to fetch and display worldwide cat
+                    images
+                  </li>
+                  <li>Dockerized and Deployed on Amazon EKS Cluster</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col my-auto">
+              <img
+                src="./images/Projects/CatApp.PNG"
+                class="card-img-top"
+                alt="Kitty Cat Club"
+              />
+              <div class="text-center my-3">
+                <a
+                  href="http://af14c999fddb84dedb9e44db78717104-1367731163.eu-central-1.elb.amazonaws.com:3000"
+                  target="_blank"
+                  class="live"
+                  >Go Live</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
         <!--Movie App-->
         <div class="card mt-3">
           <div class="row row-cols-1 row-cols-lg-2 g-3">
@@ -185,7 +285,7 @@
               <img
                 src="./images/Projects/MovieApp.PNG"
                 class="card-img-top"
-                alt="..."
+                alt="APIFLIX Movie App"
               />
               <div class="text-center my-3">
                 <a
@@ -198,117 +298,60 @@
             </div>
             <div class="col">
               <div class="card-body">
-                <h5 class="card-title text-center">APIFLIX Movie APP</h5>
+                <h5 class="card-title text-center">APIFLIX Movie App</h5>
                 <p class="card-text">
-                  A Full-Stack Web App developed with PERN stack (Postgres,
-                  Express, React & Node) where you can see a list of popular
-                  Movies from our sample DB and also one can perform all the
-                  CRUD oprations & hosted on Cloud Platform Netlify.
+                  Full-Stack Web App developed with the PERN stack (Postgres,
+                  Express, React & Node). Explore a curated list of popular
+                  movies, contribute your favorites, and leave comments. Hosted
+                  on Netlify.
                 </p>
-                <p>
-                  You are most welcomed to add your faviour movies to our DB and
-                  to comment.
-                </p>
-                <li>Created Movie Database using ElephantSQL</li>
-                <li>Implemented set of endpoints to perform CRUD operations</li>
-                <li>Tested each REST enpoint using POSTMAN</li>
-                <li>Setup a CI/CD pipeline with Netlify and Github</li>
-                <li>Designed and developed RESTful API</li>
-                <li>
-                  Applied CSS & React-Bootstrap frame work for eye pleasent
-                  styling
-                </li>
-                <li>
-                  Worked with AXIOS, promise based HTTP client for the browser &
-                  node.js for hitting REST endpoints and fetching data into the
-                  app.
-                </li>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Cat App-->
-        <div class="card mt-5">
-          <div class="row row-cols-1 row-cols-lg-2 g-3">
-            <div class="col">
-              <div class="card-body">
-                <h5 class="card-title text-center">Kitty Cat Club</h5>
-                <p class="card-text">
-                  A Full-Stack Web Application developed with MERN ( MongoDB,
-                  Express, React & Node) stack, styled using Teilwind CSS
-                  framework & hosted on Cloud Platform Render.
-                </p>
-                <p>
-                  If you are a Cat lover,surly you will find much more
-                  interesting details about the cats world wide.You are also
-                  welcomed to add your own cat to the club :) .
-                </p>
-                <li>Created Cat Database using MongoDB</li>
-                <li>Used MVC pattern to structure the backend</li>
-                <li>
-                  Designed and developed RESTful API & tested enpoints with
-                  POSTMAN
-                </li>
-                <li>Implemented set of endpoints to perform CRUD operations</li>
-                <li>Implemented Search functionality</li>
-                <li>Implemented Pagination</li>
-                <li>
-                  A route to public API in the server side created to fetch
-                  world wide cat images and rendered on the client side
-                </li>
-              </div>
-            </div>
-            <div class="col my-auto">
-              <img
-                src="./images/Projects/CatApp.PNG"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="text-center my-3">
-                <a
-                  href="https://catapp.onrender.com/"
-                  target="_blank"
-                  class="live"
-                  >Go Live</a
-                >
+                <ul class="list-unstyled">
+                  <li>Created Movie Database using ElephantSQL</li>
+                  <li>Implemented CRUD endpoints and tested with POSTMAN</li>
+                  <li>Setup CI/CD pipeline with Netlify and GitHub</li>
+                  <li>
+                    Designed and developed a RESTful API using AXIOS for
+                    seamless data fetching
+                  </li>
+                  <li>
+                    Applied CSS & React-Bootstrap for a visually pleasing design
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
 
         <!--School App-->
+
         <div class="card mt-5">
           <div class="row row-cols-1 row-cols-lg-2 g-3">
             <div class="col">
               <div class="card-body">
                 <h5 class="card-title text-center">KidzeeMinder</h5>
                 <p class="card-text">
-                  A Full-Stack Web Application developed with MERN stack &
-                  hosted on Cloud Platform Render.
+                  KidzeeMinder is a MERN stack Full-Stack Web App hosted on
+                  Render. It functions as a school management system,
+                  emphasizing an Admin Dashboard that automates a "Reminder
+                  Email Scheduler." This feature sends timely reminders to
+                  parents two weeks before the fee due date.
                 </p>
-                <p>
-                  A website for a school with the focus of developing an Admin
-                  Dashboard in frontend from which an automatic "Remainder Email
-                  Scheduler" will be triggerd in the backend.It sends a reminder
-                  email to the parents 2 weeks before fee Duedate.
-                </p>
-                <li>Created Student Database using Mongoose(MongoDB)</li>
-                <li>Used Nodemailer to send e-mails with Node.js</li>
-                <li>Used Node Cron to schedule the e-mails</li>
+                <ul class="list-unstyled">
+                  <li>Created Student Database using Mongoose (MongoDB)</li>
+                  <li>
+                    Implemented Node Cron for scheduling emails and utilized
+                    Nodemailer with Node.js for seamless email sending.
+                  </li>
 
-                <li>
-                  Implemented JWT mechanism for Authentication and Authorization
-                  using Node.JS
-                </li>
-
-                <li>
-                  Designed & developed RESTful API and tested each endpoints
-                  using POSTMAN
-                </li>
-                <li>
-                  Used AXIOS, promise based HTTP client for the browser and
-                  node.js
-                </li>
+                  <li>
+                    Implemented JWT mechanism for Authentication and
+                    Authorization using Node.js
+                  </li>
+                  <li>
+                    Designed and developed a RESTful API using AXIOS for
+                    seamless data fetching.
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="col mt-4">
@@ -322,21 +365,21 @@
                     <img
                       src="./images/Projects/school.jpg"
                       class="d-block w-100"
-                      alt="..."
+                      alt="School Image"
                     />
                   </div>
                   <div class="carousel-item">
                     <img
                       src="./images/Projects/Feedetails.PNG"
                       class="d-block w-100"
-                      alt="..."
+                      alt="Fee Details"
                     />
                   </div>
                   <div class="carousel-item">
                     <img
                       src="./images/Projects/Feereminder.PNG"
                       class="d-block w-100 bg-success"
-                      alt="..."
+                      alt="Fee Reminder"
                     />
                   </div>
                 </div>
@@ -365,7 +408,6 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-
               <div class="text-center my-3">
                 <a
                   href="https://kidzee.onrender.com/"
@@ -379,6 +421,7 @@
         </div>
 
         <!--Cook Book-->
+
         <div class="card mt-5">
           <div class="row row-cols-1 row-cols-lg-2 g-3">
             <div class="col">
@@ -386,10 +429,9 @@
                 <img
                   src="./images/Projects/Cookbook.PNG"
                   class="card-img-top d-block w-75 mx-auto mt-3"
-                  alt="..."
+                  alt="International Cook Book"
                 />
               </div>
-
               <div class="text-center mt-3 mb-3">
                 <a
                   href="https://cookbookcontentful.netlify.app"
@@ -403,16 +445,16 @@
               <div class="card-body">
                 <h5 class="card-title text-center">International Cook Book</h5>
                 <p class="card-text">
-                  A Cook Book Blog developed using React and CMS. A blog for
-                  "Food lovers" who wanted to try different most famous,
-                  delicious & internatioal reciepies.
+                  Explore the International Cook Book, a blog developed using
+                  React and CMS. It caters to food lovers interested in trying
+                  famous, delicious, and international recipes.
                 </p>
-
-                <p>A collaborative Group project developed using:</p>
-
-                <li>Contentful as CMS to store data</li>
-                <li>React to fetch data from Contentful</li>
-                <li>Bootstrap CSS Framework for styling</li>
+                <p>This collaborative group project was developed using:</p>
+                <ul class="list-unstyled">
+                  <li>Contentful as CMS for data storage</li>
+                  <li>React for fetching data from Contentful</li>
+                  <li>Bootstrap CSS Framework for stylish presentation</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -465,13 +507,14 @@
       <section class="contact" id="contact">
         <div class="container mt-4 mb-3">
           <hr />
-          <h2>Contact me</h2>
-           <p>
-             I'm actively looking for the opportunity as a Frontend or Full stack developer and please feel free to contact me, if you are interested in my
-             profile.                
+          <h2>Contact Me</h2>
+          <p>
+            I am actively seeking opportunities as a Frontend or Full Stack
+            Developer. Feel free to reach out if you are interested in my
+            profile.
           </p>
-          <h6><i class="bi bi-envelope"></i> samathagamidi@gmail.com</h6>
-          <h6><i class="bi bi-telephone"></i> +49-151-75327698</h6>
+          <h6><i class="bi bi-envelope"></i> Email: samathagamidi@gmail.com</h6>
+          <h6><i class="bi bi-telephone"></i> Phone: +49-151-75327698</h6>
         </div>
       </section>
     </footer>
